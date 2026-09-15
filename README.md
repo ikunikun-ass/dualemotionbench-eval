@@ -240,15 +240,3 @@ Each JSONL record includes:
 Completed `(audio_id, model)` pairs are skipped automatically when the same
 result file already exists.
 
-## Citation
-
-If you use this code or the DualEmotionBench benchmark, please cite:
-
-```bibtex
-@inproceedings{dualemotionbench2026,
-  title={DualEmotionBench: Benchmarking Intra-Utterance Emotion Transition Speech Synthesis},
-  author={Jiang, Xuanchen and Nie, Sihang and Xing, Xiaofen and Xu, Xiangmin},
-  booktitle={Proceedings of ...},
-  year={2026}
-}
-```
