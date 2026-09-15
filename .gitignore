@@ -216,3 +216,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# DualEmotionBench local files
+results/
+temp_combined/
+
+# API secrets
+.env
+
+# Local data and generated audio
+data/
+*.wav
+*.mp3
+*.flac
+
+# DNSMOS checkpoints: keep dnsmos/README.md, ignore weights
+dnsmos/*.onnx
+
+# Local task files containing absolute paths
+task_*.json
